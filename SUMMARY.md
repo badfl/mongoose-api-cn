@@ -2,8 +2,10 @@
 
 ## Overview
 
-* [My Awesome API](README.md)
+* [Mongoose](README.md)
+  * [quick start](quick-start.md)
 
 ## Methods
 
 * [Defining Methods](methods.md)
+
