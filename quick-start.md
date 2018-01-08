@@ -51,7 +51,7 @@ console.log(silence.name); // 'Silence'
 
 小猫（`kitten`）可以喵喵叫，那么让我们来看看如何为我们的文档添加“说（`speak`）”功能：
 
-```
+```js
 // NOTE: methods must be added to the schema before compiling it with mongoose.model()
 kittySchema.methods.speak = function () {
   var greeting = this.name
@@ -65,14 +65,14 @@ var Kitten = mongoose.model('Kitten', kittySchema);
 
 方法被添加到`methods`的原型上，编译成模型原型并在每个文档实例中公开：
 
-```
+```js
 var fluffy = new Kitten({ name: 'fluffy' });
 fluffy.speak(); // "Meow name is fluffy"
 ```
 
 我们有个会说话的小猫（`Kitten`）！但是我们没有保存任何东西给MongoDB。每个文档可以通过调用其`save`方法保存到数据库中，如果发生错误或者任何问题第一个参数将会回调。
 
-```
+```js
 fluffy.save(function (err, fluffy) {
   if (err) return console.error(err);
   fluffy.speak();
@@ -81,7 +81,7 @@ fluffy.save(function (err, fluffy) {
 
 说完以后我们想要看到所有的小猫（`kittens`），我们可以通过我的小猫（`Kitten`）模型访问所有的小猫（`Kitten`）文件。
 
-```
+```js
 Kitten.find(function (err, kittens) {
   if (err) return console.error(err);
   console.log(kittens);
@@ -90,7 +90,7 @@ Kitten.find(function (err, kittens) {
 
 我们只把我们数据库中所有的小猫（`Kitten`）输出到控制台，如果我们想按名称过滤我的小猫，Mongoose支持MongoDB丰富的查询语法。
 
-```
+```js
 Kitten.find({ name: /^fluff/ }, callback);
 ```
 
@@ -99,6 +99,4 @@ Kitten.find({ name: /^fluff/ }, callback);
 # 恭喜你
 
 快速启动已经结束。我们创建了一个`schema`，添加了一个自定义的文档方法，使用Mongoose在MongoDB中保存并查询了小猫（`Kitten`）。请转到只能或API文档了解更多信息。
-
-
 
