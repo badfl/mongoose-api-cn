@@ -26,5 +26,5 @@ var blogSchema = new Schema({
 
 _如果你稍后想添加额外的键（keys），使用Schema\#add方法_
 
-
+每个键（key）在我们的blogSchema的文档中定义了一个属性，这些属性将被转换成`Schema Type`。
 
