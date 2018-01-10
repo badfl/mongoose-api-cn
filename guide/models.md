@@ -13,5 +13,37 @@ var Tank = mongoose.model('Tank', schema);
 
 ## 构建文档（Constructing Documents）
 
+文档是我们的模型实例，创建它们并保存到数据库非常简单：
+
+```js
+var Tank = mongoose.model('Tank', yourSchema);
+
+var small = new Tank({ size: 'small' });
+small.save(function (err) {
+  if (err) return handleError(err);
+  // saved!
+})
+
+// or
+
+Tank.create({ size: 'small' }, function (err, small) {
+  if (err) return handleError(err);
+  // saved!
+})
+```
+
+请注意除非你创建的模型（`Model`）连接打开否则不会创建/移除tank。每个模型（`Model`）都有个相应的链接。当你使用`mongoose.model()`，你的模型（`Model`）将使用`mongoose`默认连接。
+
+```js
+mongoose.connect('localhost', 'gettingstarted');
+```
+
+如果您创建自定义链接，请使用`connection.model()`方法创建。
+
+```js
+var connection = mongoose.createConnection('mongodb://localhost:27017/test');
+var Tank = connection.model('Tank', yourSchema);
+```
+
 
 
