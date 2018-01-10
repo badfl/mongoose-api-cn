@@ -9,7 +9,7 @@
   * [fork](fork.md)
   * [guide](guide.md)
     * [Schemas](guide/schemas.md)
-      * types
+      * [types](guide/schemas/types.md)
       * custom
       * advanced usage
     * models
