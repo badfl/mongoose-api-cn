@@ -45,5 +45,27 @@ var connection = mongoose.createConnection('mongodb://localhost:27017/test');
 var Tank = connection.model('Tank', yourSchema);
 ```
 
+## 查询（Querying）
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
