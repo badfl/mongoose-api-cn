@@ -12,7 +12,7 @@
       * [types](guide/schemas/types.md)
       * custom
       * advanced usage
-    * models
+    * [models](guide/models.md)
     * documents
       * sub docs
       * defaults
