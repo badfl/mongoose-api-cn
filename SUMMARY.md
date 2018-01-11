@@ -13,7 +13,7 @@
       * custom
       * advanced usage
     * [models](guide/models.md)
-    * documents
+    * [documents](guide/documents.md)
       * sub docs
       * defaults
     * queries

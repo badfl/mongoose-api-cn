@@ -47,6 +47,47 @@ var Tank = connection.model('Tank', yourSchema);
 
 ## 查询（Querying）
 
+使用Mongoose中查找文档非常容易，它支持MongoDB丰富的查询语法。文档检索可以使用models的finde,dindeById,findOne或where静态方法。
+
+```js
+Tank.find({ size: 'small' }).where('createdDate').gt(oneYearAgo).exec(callback);
+```
+
+有关如何使用`Query`API的更多详细信息，请参阅查询一章。
+
+## 删除（Removing）
+
+模型（`Model`）有一个静态`remove`方法可用于删除符合条件（`conditions`）的所有文档。
+
+```js
+Tank.remove({ size: 'large' }, function (err) {
+  if (err) return handleError(err);
+  // removed!
+});
+```
+
+## 更新（Updating）
+
+
+
+## 还有更多
+
+
+
+## 接下来
+
+现在我们已经介绍完Models，让我们来看看文档（Documents）。
+
+
+
+
+
+
+
+
+
+
+
 
 
 
