@@ -68,11 +68,13 @@ Tank.remove({ size: 'large' }, function (err) {
 
 ## 更新（Updating）
 
+每个模型（`model`）都有自己的`update`方法修改数据库中的文档（`documents`）并将它返回给您的应用程序，请参阅[API文档](/api-docs.md)。
 
+如果您要更新数据库中单独的一个文档并将它返回给您的应用程序，请使用`findOneAndUpdate`。
 
 ## 还有更多
 
-这个API文档涵盖了许多其他的方法，像count、mapReduce、aggregate等。
+这个[API文档](/api-docs.md)涵盖了许多其他的方法，像count、mapReduce、aggregate等。
 
 ## 接下来
 
