@@ -72,41 +72,9 @@ Tank.remove({ size: 'large' }, function (err) {
 
 ## 还有更多
 
-
+这个API文档涵盖了许多其他的方法，像count、mapReduce、aggregate等。
 
 ## 接下来
 
-现在我们已经介绍完Models，让我们来看看文档（Documents）。
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+现在我们已经介绍完`Models`，让我们来看看[文档（Documents）](/guide/documents.md)。
 

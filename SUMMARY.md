@@ -32,7 +32,7 @@
     * 3.6 release notes
     * 3.8 release notes
     * 4.0 release notes
-  * API docs
+  * [API docs](api-docs.md)
   * [快速开始（quick start）](quick-start.md)
   * contributors
   * propr releases
