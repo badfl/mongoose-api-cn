@@ -4,7 +4,7 @@
 
 * [Mongoose](README.md)
   * [FAQ](faq.md)
-  * plugins
+  * [plugins](plugins.md)
   * [change log](change-log.md)
   * [fork](fork.md)
   * [guide](guide.md)
@@ -40,6 +40,4 @@
 ## Methods
 
 * [Defining Methods](methods.md)
-
-
 
