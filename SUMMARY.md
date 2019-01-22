@@ -7,15 +7,15 @@
   * [plugins](plugins.md)
   * [change log](change-log.md)
   * [fork](fork.md)
-  * [guide](guide.md)
+  * [guides](guide.md)
     * [Schemas](guide/schemas.md)
       * [types](guide/schemas/types.md)
       * custom
       * advanced usage
     * [models](guide/models.md)
     * [documents](guide/documents.md)
-      * sub docs
-      * defaults
+      * [sub docs](guide/documents/sub-docs.md)
+      * [defaults](guide/documents/defaults.md)
     * [queries](guide/queries.md)
     * [validation](guide/validation.md)
     * middleware
