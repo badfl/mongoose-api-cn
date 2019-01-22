@@ -1,6 +1,7 @@
 # Summary
 
 ## Overview
+v5.4.5
 
 * [Mongoose](README.md)
   * [FAQ](faq.md)

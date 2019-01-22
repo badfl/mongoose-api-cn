@@ -16,8 +16,8 @@
     * [documents](guide/documents.md)
       * sub docs
       * defaults
-    * queries
-    * validation
+    * [queries](guide/queries.md)
+    * [validation](guide/validation.md)
     * middleware
     * population
     * connections
