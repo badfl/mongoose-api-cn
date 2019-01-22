@@ -1,5 +1,6 @@
 # GUIDES
 Mongoose指南提供有关Mongoose核心概念的详细教程，并将Mongoose与外部工具和框架集成在一起。
+
 ## Mongoose核心概念
 * Schemas
 * SchemaTypes
